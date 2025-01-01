@@ -40,7 +40,6 @@ module.exports = {
       multiline: 'below',
     }],
 
-
     // indentation (Already present in TypeScript)
     'indent': ['error', 2],
 
@@ -131,7 +130,6 @@ module.exports = {
 
     // Thanks: https://stackoverflow.com/a/63961972/10796681
     'no-shadow': 'off',
-
 
     // Plugin: eslint-plugin-promise
     'promise/always-return': 'off',

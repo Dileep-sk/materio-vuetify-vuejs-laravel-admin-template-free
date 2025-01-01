@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint . -c .eslintrc.cjs --fix --ext .ts,.js,.cjs,.vue,.tsx,.jsx",
     "build:icons": "tsx resources/ts/plugins/iconify/build-icons.ts",
@@ -82,5 +82,6 @@
     "postcss": "^8",
     "stylelint-order": "6.0.3",
     "@types/video.js": "^7"
-  }
+  },
+  "version": "2.2.0"
 }
